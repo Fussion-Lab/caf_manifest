@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://source.codeaurora.org/quic/la/" name="caf_system" review="codeaurora.org"/>
-  <default remote="caf_system" revision="partner-android/r-qpr1-fs-release"/>
+  <!-- default remote="caf_system" revision="partner-android/r-qpr1-fs-release"/-->
   <project groups="aosp-android11-release,device,pdk,yukawa,qc-common-sys" name="device/amlogic/yukawa" revision="db101fc6bcaac8560d9240931e0765d1d90f1f92" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel"/>
   <project clone-depth="2" groups="aosp-android11-release,device,pdk,yukawa,qc-common-sys" name="device/amlogic/yukawa-kernel" revision="7807a99270a74b5fdf39e1b8d6892911c38245e0" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel"/>
   <project groups="aosp-android11-release,pdk,pdk-cw-fs,qc-common-sys" name="device/common" revision="330822b78f3605157fb1e50791e22f7f5df5893f" upstream="refs/heads/ks-aosp.lnx.3.0.r4-rel"/>

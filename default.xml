@@ -79,4 +79,7 @@
   <project name="platform/vendor/qcom/steppe" path="device/qcom/sm6150" revision="2fbe3de6cd5d1ca34cb10234c850f74be203a290" upstream="refs/heads/qcom-devices.lnx.6.0.r2-rel"/>
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="b9fc98e43267345dae10de153eabcf277bc6623e" upstream="refs/heads/qcom-devices.lnx.6.0.r2-rel"/>
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="9a9136377fe8723ecc53566ac6b36b65b3ed82a5" upstream="refs/heads/wlan-service.lnx.5.0.r10-rel"/>
+
+  <include name="system.xml"/>
+
 </manifest>
